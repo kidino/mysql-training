@@ -1,0 +1,88 @@
+
+body.auth {
+    box-sizing: border-box; border-radius: 20px;
+    max-width: 600px; margin: auto;
+    margin-top: 50px; padding: 30px 0px;
+    border: 1px solid #ccc;
+    box-shadow : 0 0 10px 0px rgba(0,0,0,0.3);
+}
+
+body.auth h1 {
+    border-bottom: 1px dashed #ccc;
+    margin-top: 0px;
+    padding: 0px 20px 10px;
+}
+
+body.auth form {
+    margin: 0px 20px;
+}
+
+body.auth label { 
+    display: inline-block;
+    width: 100px;
+}
+
+body.auth input[type=text], input[type=password] {
+    display: inline-block;
+    height: 28px; width: 200px;
+    line-height: 20px; padding-left: 5px;
+}
+
+body.auth input[type=submit] {
+    padding: 8px 15px
+}
+
+
+
+body.auth p.alert, body.auth p.message {
+    padding: 5px 10px;
+    margin: 0px 20px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+body.auth p.alert {
+    border: 1px solid #F14545;
+    background-color: #FFD1D1FF;
+    color: #b40606;
+}
+
+body.auth p.message {
+    border: 1px solid #42b7f7;
+    background-color: rgb(206, 240, 255);
+    color: #117cba;
+}
+
+/* Apply basic styling to the table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Style table headers */
+th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 8px;
+}
+
+/* Style table rows */
+tr {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Alternate row background color for better readability */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style table cells */
+td {
+    padding: 8px;
+}
+
+/* Add hover effect to rows */
+tr:hover {
+    background-color: #ddd;
+}
